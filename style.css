@@ -1,0 +1,88 @@
+/* Global */
+body {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 10vmin 0 10vmin;
+}
+
+/* Utility */
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Typography */
+
+p {
+    text-align: center;
+    color: #22223b;
+    font-weight: 300;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+/* Header */
+header {
+    background: url('images/hero.JPG') no-repeat center center;
+    background-size: cover;
+    height: 30vmin;
+    align-items: flex-start !important;
+    justify-content: flex-start !important; 
+}
+
+h1 {
+    font-family: 'Mali', cursive;
+    font-weight: 500;
+    color: #22223b;
+    text-transform: capitalize;
+    margin: 5vmin 0 1vmin 5vmin;
+}
+
+header p {
+    margin-left: 5vmin;
+}
+
+/* Card */
+article {
+    width: 30vmin;
+    border-radius: 25px;
+    margin: 2vmin;
+    border: 1px solid #808080;
+}
+
+article img {
+    height: 15vmin;
+    width: auto;
+}
+
+.bio {
+    padding: 0 3vmin;
+}
+
+.wrapper {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.details {
+    padding: 3vmin;
+    background-color: #5baed879;
+    border-radius: 0 0 25px 25px;
+}
+
+.details p {
+    margin: 0;
+}
+
+.details h3 {
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 5vmin;
+}
